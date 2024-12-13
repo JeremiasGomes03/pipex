@@ -1,0 +1,3 @@
+O projeto Pipex tem o objetivo de criar um programa que simula o uso de pipes no shell. Ele recebe quatro argumentos: dois arquivos (file1 e file2) e dois comandos (cmd1 e cmd2). O primeiro arquivo é lido, e a saída do comando cmd1 é passada como entrada para o comando cmd2, com o resultado sendo escrito no segundo arquivo. A execução é feita de forma semelhante ao comando shell < file1 cmd1 | cmd2 > file2.
+
+O programa deve lidar com a criação de pipes, redirecionamento de arquivos e execução de comandos em processos filhos, utilizando funções do sistema como fork, pipe, execve, dup2, entre outras. É importante que o código trate erros corretamente e não tenha falhas ou vazamentos de memória, garantindo que a execução seja estável e funcione como esperado.
